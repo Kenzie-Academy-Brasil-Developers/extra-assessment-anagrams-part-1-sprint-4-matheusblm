@@ -1,5 +1,5 @@
 body{
-	background-image: url("Image-e1518714752702.png");
+	background-image: url("books-1655783_1920.jpg");
 	max-width: 100%;
 	
 }
@@ -16,11 +16,22 @@ span{
 }
 #test{
 	margin-top: 15px;
+	background-color: #595260;
+	height: 70px;
+	padding: 20px;
+	border: 1px solid #595260;
+	border-radius: 5px;
+	max-width: 300px;
 }
 #findButton{
-color: #FFD523;
-background-color: #2C2E43;
-margin-top: 10px;
+	color: #FFD523;
+	background-color: #2C2E43;
+	margin-top: 10px;
+	border-radius: 5px;
+	
+}
+#findButtton:hover{
+	background-color: #FFD523;
 }
 #input{
 	max-width: 300px;
@@ -34,5 +45,16 @@ margin-top: 10px;
 	}
 	h1{
 		margin: 0 auto;
+	}
+	div{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;	
+	}
+	#test{
+		display: block;
+		margin: 0px auto;
+		margin-top: 20px;
 	}
 }
