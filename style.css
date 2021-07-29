@@ -1,0 +1,38 @@
+body{
+	background-image: url("Image-e1518714752702.png");
+	max-width: 100%;
+	
+}
+
+h1{
+	color: #FFD523;
+	background-color: #2C2E43;
+	max-width: 160px;
+}
+span{
+	background-color: #595260;
+	color: #FFD523;
+	
+}
+#test{
+	margin-top: 15px;
+}
+#findButton{
+color: #FFD523;
+background-color: #2C2E43;
+margin-top: 10px;
+}
+#input{
+	max-width: 300px;
+}
+
+@media screen and (min-width:768px){
+	body{
+		height:50%;
+		width : 100%;
+		
+	}
+	h1{
+		margin: 0 auto;
+	}
+}
